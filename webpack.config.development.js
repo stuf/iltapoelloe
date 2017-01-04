@@ -15,15 +15,27 @@ const port = process.env.PORT || 3000;
 export default validate(merge(baseConfig, {
   debug: true,
 
-  devtool: 'inline-source-map',
+  // devtool: 'inline-source-map',
+  devtool: 'eval',
 
-  entry: [
-    `webpack-hot-middleware/client?path=http://localhost:${port}/__webpack_hmr`,
-    'babel-polyfill',
-    './app/index'
-  ],
+  entry: {
+    vendor: [
+      `webpack-hot-middleware/client?path=http://localhost:${port}/__webpack_hmr`,
+      'babel-polyfill',
+      'react', 'react-dom', 'redux', 'react-redux', 'react-router-redux', 'rxjs', 'ramda', 'partial.lenses',
+      'karet', 'karet.util'
+    ],
+    bundle: [
+      `webpack-hot-middleware/client?path=http://localhost:${port}/__webpack_hmr`,
+      './app/index'
+    ]
+  },
+  // entry: [
+  //   './app/index'
+  // ],
 
   output: {
+    filename: '[name].js',
     publicPath: `http://localhost:${port}/dist/`
   },
 
@@ -75,7 +87,13 @@ export default validate(merge(baseConfig, {
     // NODE_ENV should be production so that modules do not perform certain development checks
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': JSON.stringify('development')
-    })
+    }),
+    //
+    // new webpack.optimize.CommonsChunkPlugin({
+    //   name: 'vendor',
+    //   file: 'vendor.js',
+    //   minChunks: Infinity
+    // })
   ],
 
   // https://github.com/chentsulin/webpack-target-electron-renderer#how-this-module-works

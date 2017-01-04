@@ -8,6 +8,7 @@
 [include]
 
 [libs]
+app/types/
 
 [options]
 esproposal.class_static_fields=enable
