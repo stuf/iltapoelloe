@@ -1,0 +1,5 @@
+@import '~bootstrap/dist/css/bootstrap-flex.css';
+
+* {
+  box-sizing: border-box;
+}
