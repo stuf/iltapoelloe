@@ -1,0 +1,13 @@
+.timeline {
+  /*padding: 0 1.5rem;*/
+}
+
+.timelineList {
+  /*border: solid 1px #f00;*/
+  border-top: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+.timelineStatus {
+  padding: 7.5px;
+  margin: 7.5px 0;
+}

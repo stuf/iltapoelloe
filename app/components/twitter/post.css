@@ -1,0 +1,15 @@
+.post {
+  padding: 0 7.5px;
+}
+
+.footer {
+  border: solid 1px #f00;
+}
+
+.footer > div {
+  display: inline-block;
+}
+
+.footer > div + div {
+  margin-left: 7.5px;
+}
