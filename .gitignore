@@ -31,6 +31,9 @@ app/node_modules
 # OSX
 .DS_Store
 
+# Sensitive stuff
+app/config.json
+
 # App packaged
 release
 app/main.js
