@@ -1,4 +1,3 @@
-// @flow
 import Rx from 'rxjs/Rx';
 import * as L from 'partial.lenses';
 import * as R from 'ramda';
@@ -43,7 +42,7 @@ const Stream = {
 };
 
 export const startStream = () =>
-  (dispatch: *, getState: *) => {
+  (dispatch, getState) => {
     const state = getState();
     state.stream.start();
     dispatch({
@@ -55,7 +54,7 @@ export const startStream = () =>
   };
 
 export const stopStream = () =>
-  (dispatch: *, getState: *) => {
+  (dispatch, getState) => {
     const state = getState();
     state.stream.stop();
     dispatch({
@@ -71,7 +70,7 @@ export const stopStream = () =>
  * functionality for controlling the stream.
  */
 export const createStream = () =>
-  (dispatch: *, getState: *) => {
+  (dispatch, getState) => {
     dispatch({
       type: CREATE_STREAM
     });
@@ -115,7 +114,7 @@ export const createStream = () =>
   };
 
 export const disposeStream = () =>
-  (dispatch: *, getState: *) => {
+  (dispatch, getState) => {
     dispatch({
       type: DISPOSE_STREAM
     });
