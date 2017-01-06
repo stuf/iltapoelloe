@@ -9,6 +9,7 @@ import webpack from 'webpack';
 import webpackDevMiddleware from 'webpack-dev-middleware';
 import webpackHotMiddleware from 'webpack-hot-middleware';
 import { spawn } from 'child_process';
+import DashboardPlugin from 'webpack-dashboard/plugin';
 
 import config from './webpack.config.development';
 
@@ -17,6 +18,8 @@ const argv = require('minimist')(process.argv.slice(2));
 const app = express();
 const compiler = webpack(config);
 const PORT = process.env.PORT || 3000;
+
+compiler.apply(new DashboardPlugin());
 
 const wdm = webpackDevMiddleware(compiler, {
   publicPath: config.output.publicPath,
