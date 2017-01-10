@@ -1,11 +1,19 @@
 // @flow
 import React from 'karet';
 import cx from 'classnames';
+import Icon from './icon';
 
 const getButtonClass = (type = 'primary') => `btn-${type}`;
 
-export const Button = ({ type = 'default', text, ...props }: *) =>
-  <button className={cx('btn', getButtonClass(type))} {...props}>{text}</button>;
+const getButtonSize = (size) => (size ? `btn-${size}` : null);
+
+const getIcon = (type) => (type ? <Icon {...{ type }} /> : null);
+
+export const Button = ({ type = 'default', icon, size, text, ...props }: *) =>
+  <button className={cx('btn', getButtonClass(type), getButtonSize(size))} {...props}>
+    {getIcon(icon)}
+    {text}
+  </button>;
 
 export const LinkButton = ({ ...props }: *) => <Button type="link" {...props} />;
 

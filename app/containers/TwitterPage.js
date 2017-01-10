@@ -2,15 +2,20 @@
 
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import * as actions from '../actions/twitter';
+import * as twitterActions from '../actions/twitter';
+import * as tweetActions from '../actions/tweet';
 import Twitter from '../components/Twitter';
 
 const mapStateToProps = (state) => ({
-  twitter: state.twitter
+  twitter: state.twitter,
+  tweet: state.tweet
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  actions: bindActionCreators(actions, dispatch)
+  actions: {
+    twitter: bindActionCreators(twitterActions, dispatch),
+    tweet: bindActionCreators(tweetActions, dispatch)
+  }
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(Twitter);

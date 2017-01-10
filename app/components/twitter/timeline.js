@@ -1,23 +1,31 @@
+/**
+ * @flow
+ */
+import { connect } from 'react-redux';
 import React from 'karet';
-import { PropTypes } from 'react';
 import * as U from 'karet.util';
 import cx from 'classnames';
 
 import Tweet from './tweet';
 import css from './timeline.css';
 
-const Timeline = ({ tweets, isStreaming }) =>
+type TimelineProps = {
+  statuses: *,
+  isStreaming: boolean,
+  selector: *
+};
+
+const mapStateToProps = (state, ownProps: TimelineProps) => ({
+  statuses: ownProps.selector(state)
+});
+
+const Timeline = ({ statuses, isStreaming, selector }: TimelineProps) =>
   <div className={cx(css.timeline)}>
     <div className={cx('h5', css.timelineStatus)}>Timeline streaming is active: {isStreaming ? 'yes' : 'no'}</div>
     <div className={cx(css.timelineList)}>
-      {U.seq(tweets, U.indices, U.mapCached(i =>
-        <Tweet key={i} tweet={U.view(i, tweets)} />))}
+      {U.seq(statuses, U.indices, U.mapCached(i =>
+        <Tweet key={i} tweet={U.view(i, statuses)} />))}
     </div>
   </div>;
 
-Timeline.propTypes = {
-  tweets: PropTypes.array.isRequired,
-  isStreaming: PropTypes.bool.isRequired
-};
-
-export default Timeline;
+export default connect(mapStateToProps)(Timeline);
