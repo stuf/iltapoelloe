@@ -6,9 +6,9 @@
 .*/git/.*
 
 [include]
+app/types/*.js
 
 [libs]
-app/types/
 
 [options]
 esproposal.class_static_fields=enable
