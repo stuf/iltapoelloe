@@ -10,14 +10,40 @@ import {
 
 export default validate({
   module: {
-    loaders: [{
-      test: /\.jsx?$/,
-      loaders: ['babel-loader'],
-      exclude: /node_modules/
-    }, {
-      test: /\.json$/,
-      loader: 'json-loader'
-    }]
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        loaders: ['babel-loader'],
+        exclude: /node_modules/
+      },
+      {
+        test: /\.json$/,
+        loader: 'json-loader'
+      },
+      {
+        test: /\.(png|jpg)$/, loader: 'file?name=images/[name].[hash].[ext]'
+      },
+      {
+        test: /\.woff(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file?name=fonts/[name].[hash].[ext]&mimetype=application/font-woff'
+      },
+      {
+        test: /\.woff2(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file?name=fonts/[name].[hash].[ext]&mimetype=application/font-woff'
+      },
+      {
+        test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file?name=fonts/[name].[hash].[ext]&mimetype=application/octet-stream'
+      },
+      {
+        test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file?name=fonts/[name].[hash].[ext]'
+      },
+      {
+        test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+        loader: 'file?name=images/[name].[hash].[ext]&mimetype=image/svg+xml'
+      }
+    ]
   },
 
   output: {

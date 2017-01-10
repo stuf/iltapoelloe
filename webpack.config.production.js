@@ -35,6 +35,10 @@ export default validate(merge(baseConfig, {
         )
       },
 
+      {
+        test: /\.s[a|c]ss$/,
+        loaders: ExtractTextPlugin.extract('style-loader', 'css-loader', 'sass-loader')
+      },
       // Pipe other styles through css modules and append to style.css
       {
         test: /^((?!\.global).)*\.css$/,
