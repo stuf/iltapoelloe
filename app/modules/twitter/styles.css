@@ -1,0 +1,20 @@
+.view {
+  /*border: solid 1px #f00;*/
+}
+
+.titleBar {
+  display: flex;
+  height: 40px;
+  background: #37474F;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleBar h1 {
+  font-size: 1em;
+  margin-bottom: 0;
+}

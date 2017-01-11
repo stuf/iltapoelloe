@@ -1,16 +1,23 @@
 // @flow
-import React, { Component } from 'react';
+import React from 'karet';
+import cx from 'classnames';
+
+const { Component } = React;
+
+import css from './App.css';
+
+type Props = {
+  children: HTMLElement
+};
 
 export default class App extends Component {
-  props: {
-    children: HTMLElement
-  };
+  props: Props;
 
   render() {
     return (
-      <div>
+      <section className={cx(css.app)}>
         {this.props.children}
-      </div>
+      </section>
     );
   }
 }
