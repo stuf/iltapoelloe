@@ -3,5 +3,13 @@
   "javascript.validate.enable": false,
   "files.associations": {
     "**/*.js.flow": "javascript"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/node/modules/*": true,
+    "**/flow-typed/*": true
   }
 }
