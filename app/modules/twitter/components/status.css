@@ -1,0 +1,27 @@
+.status {
+  padding: 0.5rem;
+  border-bottom: solid 1px #ddd;
+}
+
+.isRetweet {
+  border: solid 1px #00f;
+}
+
+.isQuote {
+  border: solid 2px #f66;
+}
+
+.text {
+  border: dashed 1px rgba(255, 0, 0, 0.7);
+}
+
+.footer {
+}
+
+.username {
+  border: dashed 1px #f00;
+}
+
+.timestamp {
+  border: dashed 1px #00f;
+}

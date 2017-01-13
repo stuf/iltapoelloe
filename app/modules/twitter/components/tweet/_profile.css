@@ -1,0 +1,16 @@
+.profile {
+}
+
+.isRetweet {
+}
+
+.retweetingProfileImage {
+  position: absolute;
+  top: 36px;
+  left: 36px;
+  width: 32px;
+  background-color: #fff;
+  border: solid 1px #ddd;
+  padding: 0.125rem;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}

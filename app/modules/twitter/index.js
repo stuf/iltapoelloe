@@ -9,12 +9,17 @@ import Status from './components/status';
 
 import css from './styles.css';
 
-export default ({ state, statuses = U.view(['statuses', L.define([])], state) }: *) =>
+const statusesIn = U.view(['statuses', L.define([])]);
+
+export default ({
+  state,
+  statuses = statusesIn(state)
+}: *) =>
   <section className={cx(css.view)}>
     <header className={cx(css.titleBar)}>
-      <h1>Top keks</h1>
+      <h1>Iltapöllö</h1>
     </header>
-    <article>
+    <article className={cx(css.timeline)}>
       <Statuses statuses={statuses} Status={Status} />
     </article>
   </section>;
