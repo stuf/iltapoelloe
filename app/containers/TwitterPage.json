@@ -1,0 +1,578 @@
+[
+  {
+    "created_at": "Wed Jan 11 23:15:31 +0000 2017",
+    "id": 819321872118673400,
+    "id_str": "819321872118673408",
+    "text": "It went well. Also, protip: Do not search \"Acid Burn\" in a google image search unless you're being very very specific. Love and peace 2017.",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": 819250959280963600,
+    "in_reply_to_status_id_str": "819250959280963585",
+    "in_reply_to_user_id": 17047955,
+    "in_reply_to_user_id_str": "17047955",
+    "in_reply_to_screen_name": "wilkieii",
+    "user": {
+      "id": 17047955,
+      "id_str": "17047955",
+      "name": "wilkie",
+      "screen_name": "wilkieii",
+      "location": "Totally Canadian",
+      "url": "http://wilkie.how",
+      "description": "I believe code is art; care about how code and culture intersect; code should be equally available to all. Let's love whomever we wish. 🖕 Donald Trump 🖕",
+      "protected": false,
+      "verified": false,
+      "followers_count": 1773,
+      "friends_count": 616,
+      "listed_count": 136,
+      "favourites_count": 24116,
+      "statuses_count": 42102,
+      "created_at": "Wed Oct 29 18:49:32 +0000 2008",
+      "utc_offset": -18000,
+      "time_zone": "Eastern Time (US & Canada)",
+      "geo_enabled": true,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "E0D3E0",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/3425443/bg.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/3425443/bg.png",
+      "profile_background_tile": true,
+      "profile_link_color": "8F1486",
+      "profile_sidebar_border_color": "3D5F44",
+      "profile_sidebar_fill_color": "68A677",
+      "profile_text_color": "0A2E0A",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/817579550834065408/aGJDbVQP_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/817579550834065408/aGJDbVQP_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/17047955/1414884832",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "fa60acd6499e19e2",
+      "url": "https://api.twitter.com/1.1/geo/id/fa60acd6499e19e2.json",
+      "place_type": "city",
+      "name": "Kiel",
+      "full_name": "Kiel, WI",
+      "country_code": "US",
+      "country": "United States",
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -88.054096,
+              43.905273
+            ],
+            [
+              -88.054096,
+              43.928203
+            ],
+            [
+              -87.996048,
+              43.928203
+            ],
+            [
+              -87.996048,
+              43.905273
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1484176531234"
+  },
+  {
+    "created_at": "Wed Jan 11 23:18:01 +0000 2017",
+    "id": 819322503021482000,
+    "id_str": "819322503021481985",
+    "text": "All-At-Once Release of New “Too Many Gods Here!”, Chapter #25! #MANGApixiv | pixivision https://t.co/9OhFP1ZanK",
+    "source": "<a href=\"http://www.pixiv.com/\" rel=\"nofollow\">pixiv_en_bot</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 296198649,
+      "id_str": "296198649",
+      "name": "pixiv English",
+      "screen_name": "pixiv_en",
+      "location": "Tokyo, Japan",
+      "url": "http://www.pixiv.net",
+      "description": "Official English Twitter account for pixiv, an online artist community site for illustrations, anime, and manga.",
+      "protected": false,
+      "verified": true,
+      "followers_count": 12434,
+      "friends_count": 888,
+      "listed_count": 220,
+      "favourites_count": 0,
+      "statuses_count": 5695,
+      "created_at": "Tue May 10 10:59:54 +0000 2011",
+      "utc_offset": 32400,
+      "time_zone": "Tokyo",
+      "geo_enabled": false,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/283203566/ptl_bg.jpg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/283203566/ptl_bg.jpg",
+      "profile_background_tile": true,
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/691913403888222209/hGfVfYsG_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/691913403888222209/hGfVfYsG_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/296198649/1452148818",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MANGApixiv",
+          "indices": [
+            63,
+            74
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/9OhFP1ZanK",
+          "expanded_url": "http://www.pixivision.net/en/a/2067",
+          "display_url": "pixivision.net/en/a/2067",
+          "indices": [
+            88,
+            111
+          ]
+        }
+      ],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1484176681653"
+  },
+  {
+    "created_at": "Wed Jan 11 23:38:40 +0000 2017",
+    "id": 819327698107584500,
+    "id_str": "819327698107584512",
+    "text": "RT @VGArtAndTidbits: Sonic the Hedgehog - 90's promotional art. \n\nSonic is seen here ignoring Egg Man's pleas for help. A man died that… ",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 99608225,
+      "id_str": "99608225",
+      "name": "🐖",
+      "screen_name": "Sonichu1",
+      "location": "CWCville, Virginia",
+      "url": null,
+      "description": "ZAPPING TO THE EXTREME! P4L - pIzZaSeXuAl 4 LyFe. VERIFIED RAPIST. STOCK TICKER IS $RAPE (ง ͠ ͠° ͟ل͜ ͡°)ง (⊙ヮ⊙) ☕️ 「Ｄａｒｋ  Ｍｅｍｅ  Ｍａｓｔｅｒ」",
+      "protected": false,
+      "verified": false,
+      "followers_count": 4224,
+      "friends_count": 3721,
+      "listed_count": 193,
+      "favourites_count": 4337,
+      "statuses_count": 452098,
+      "created_at": "Sun Dec 27 01:04:52 +0000 2009",
+      "utc_offset": -25200,
+      "time_zone": "Mountain Time (US & Canada)",
+      "geo_enabled": true,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/504719484704153600/03nQ4acF.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/504719484704153600/03nQ4acF.jpeg",
+      "profile_background_tile": false,
+      "profile_link_color": "0F0F0F",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "071ABF",
+      "profile_text_color": "030303",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/813501856982777856/LkopZPpK_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/813501856982777856/LkopZPpK_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/99608225/1437510589",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Jan 11 15:39:48 +0000 2017",
+      "id": 819207188388474900,
+      "id_str": "819207188388474880",
+      "text": "Sonic the Hedgehog - 90's promotional art. \n\nSonic is seen here ignoring Egg Man's pleas for help. A man died that… https://t.co/dHPVgI7ynj",
+      "display_text_range": [
+        0,
+        140
+      ],
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "truncated": true,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 777293987392598000,
+        "id_str": "777293987392598016",
+        "name": "VideoGameArt&Tidbits",
+        "screen_name": "VGArtAndTidbits",
+        "location": "New York, NY",
+        "url": null,
+        "description": "A Twitter account posting high quality (official) video game artwork, classic ads, tidbits, and other video game goodies! ~ run by @tanookikuribo",
+        "protected": false,
+        "verified": false,
+        "followers_count": 4013,
+        "friends_count": 1,
+        "listed_count": 17,
+        "favourites_count": 1284,
+        "statuses_count": 843,
+        "created_at": "Sat Sep 17 23:51:42 +0000 2016",
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_link_color": "0084B4",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/813403284388151296/ym-mR1wz_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/813403284388151296/ym-mR1wz_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/777293987392598016/1474172248",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "extended_tweet": {
+        "full_text": "Sonic the Hedgehog - 90's promotional art. \n\nSonic is seen here ignoring Egg Man's pleas for help. A man died that day. Sonic felt nothing. https://t.co/aR9BibUqi2",
+        "display_text_range": [
+          0,
+          139
+        ],
+        "entities": {
+          "hashtags": [],
+          "urls": [],
+          "user_mentions": [],
+          "symbols": [],
+          "media": [
+            {
+              "id": 819207183028158500,
+              "id_str": "819207183028158465",
+              "indices": [
+                140,
+                163
+              ],
+              "media_url": "http://pbs.twimg.com/media/C15ol7XXgAEGh3Y.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/C15ol7XXgAEGh3Y.jpg",
+              "url": "https://t.co/aR9BibUqi2",
+              "display_url": "pic.twitter.com/aR9BibUqi2",
+              "expanded_url": "https://twitter.com/VGArtAndTidbits/status/819207188388474880/photo/1",
+              "type": "photo",
+              "sizes": {
+                "large": {
+                  "w": 1024,
+                  "h": 768,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 510,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1024,
+                  "h": 768,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        },
+        "extended_entities": {
+          "media": [
+            {
+              "id": 819207183028158500,
+              "id_str": "819207183028158465",
+              "indices": [
+                140,
+                163
+              ],
+              "media_url": "http://pbs.twimg.com/media/C15ol7XXgAEGh3Y.jpg",
+              "media_url_https": "https://pbs.twimg.com/media/C15ol7XXgAEGh3Y.jpg",
+              "url": "https://t.co/aR9BibUqi2",
+              "display_url": "pic.twitter.com/aR9BibUqi2",
+              "expanded_url": "https://twitter.com/VGArtAndTidbits/status/819207188388474880/photo/1",
+              "type": "photo",
+              "sizes": {
+                "large": {
+                  "w": 1024,
+                  "h": 768,
+                  "resize": "fit"
+                },
+                "small": {
+                  "w": 680,
+                  "h": 510,
+                  "resize": "fit"
+                },
+                "thumb": {
+                  "w": 150,
+                  "h": 150,
+                  "resize": "crop"
+                },
+                "medium": {
+                  "w": 1024,
+                  "h": 768,
+                  "resize": "fit"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "retweet_count": 129,
+      "favorite_count": 210,
+      "entities": {
+        "hashtags": [],
+        "urls": [
+          {
+            "url": "https://t.co/dHPVgI7ynj",
+            "expanded_url": "https://twitter.com/i/web/status/819207188388474880",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "url": "",
+          "expanded_url": null,
+          "indices": [
+            137,
+            137
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "VGArtAndTidbits",
+          "name": "VideoGameArt&Tidbits",
+          "id": 777293987392598000,
+          "id_str": "777293987392598016",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1484177920258"
+  },
+  {
+    "created_at": "Thu Jan 12 10:45:14 +0000 2017",
+    "id": 819495447593095200,
+    "id_str": "819495447593095168",
+    "text": "@kawataka620 @Bucceh 古いフィンランドのコメディ https://t.co/12PIRZ37w8 https://t.co/dbRuiAmguP",
+    "display_text_range": [
+      21,
+      82
+    ],
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": 819494370810339300,
+    "in_reply_to_status_id_str": "819494370810339328",
+    "in_reply_to_user_id": 165436943,
+    "in_reply_to_user_id_str": "165436943",
+    "in_reply_to_screen_name": "kawataka620",
+    "user": {
+      "id": 96787604,
+      "id_str": "96787604",
+      "name": "Jaakui Pirinen",
+      "screen_name": "Jaakui",
+      "location": "タンペレ、フィンランド",
+      "url": "http://www.yakui.net",
+      "description": "けいおんやゆるゆりやヤクいさんや音MADや色々ゲームが好きです～ときどき同人誌を作っている、サークル名は「DONUT EATER」☆彡Tweet in JP/EN/FI. よろしく～(^o^)丿| もっと自己紹介: http://twpf.jp/Jaakui",
+      "protected": false,
+      "verified": false,
+      "followers_count": 786,
+      "friends_count": 756,
+      "listed_count": 43,
+      "favourites_count": 4488,
+      "statuses_count": 23686,
+      "created_at": "Mon Dec 14 16:05:53 +0000 2009",
+      "utc_offset": 7200,
+      "time_zone": "Helsinki",
+      "geo_enabled": true,
+      "lang": "fi",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/445719323877728256/dKIXSvbe.jpeg",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/445719323877728256/dKIXSvbe.jpeg",
+      "profile_background_tile": true,
+      "profile_link_color": "0084B4",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/445706170490032129/0dqvzUaL_normal.jpeg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/445706170490032129/0dqvzUaL_normal.jpeg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/96787604/1401359598",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "url": "https://t.co/12PIRZ37w8",
+          "expanded_url": "https://www.youtube.com/watch?v=cl_hUYbq_js",
+          "display_url": "youtube.com/watch?v=cl_hUY…",
+          "indices": [
+            35,
+            58
+          ]
+        },
+        {
+          "url": "https://t.co/dbRuiAmguP",
+          "expanded_url": "https://www.youtube.com/watch?v=E6-lgshlJyg",
+          "display_url": "youtube.com/watch?v=E6-lgs…",
+          "indices": [
+            59,
+            82
+          ]
+        }
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "kawataka620",
+          "name": "＊かわたか＊",
+          "id": 165436943,
+          "id_str": "165436943",
+          "indices": [
+            0,
+            12
+          ]
+        },
+        {
+          "screen_name": "Bucceh",
+          "name": "Bucceh",
+          "id": 248778972,
+          "id_str": "248778972",
+          "indices": [
+            13,
+            20
+          ]
+        }
+      ],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "ja",
+    "timestamp_ms": "1484217914852"
+  }
+]

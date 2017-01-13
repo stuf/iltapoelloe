@@ -23,8 +23,8 @@ const Timeline = ({ statuses, isStreaming, selector }: TimelineProps) =>
   <div className={cx(css.timeline)}>
     <div className={cx('h5', css.timelineStatus)}>Timeline streaming is active: {isStreaming ? 'yes' : 'no'}</div>
     <div className={cx(css.timelineList)}>
-      {U.seq(statuses, U.indices, U.mapCached(i =>
-        <Tweet key={i} tweet={U.view(i, statuses)} />))}
+      {U.seq(statuses, U.mapCached(i =>
+        <Tweet key={i.originalStatus.id_str} tweet={U.view(i.originalStatus.id_str, statuses)} />))}
     </div>
   </div>;
 

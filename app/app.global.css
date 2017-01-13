@@ -3,3 +3,7 @@
 * {
   box-sizing: border-box;
 }
+
+#root {
+  font-family: "HK Grotesk";
+}
