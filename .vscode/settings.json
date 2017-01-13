@@ -8,8 +8,6 @@
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
-    "**/.DS_Store": true,
-    "**/node/modules/*": true,
-    "**/flow-typed/*": true
+    "**/.DS_Store": true
   }
 }
