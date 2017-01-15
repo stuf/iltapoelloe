@@ -7,7 +7,7 @@ import 'font-awesome/css/font-awesome.css';
 
 import routes from './routes';
 import configureStore from './store/configureStore';
-import './app.global.css';
+import './app.module.scss';
 
 const store = configureStore();
 const history = syncHistoryWithStore(hashHistory, store);

@@ -4,7 +4,8 @@ import React from 'karet';
 import K, * as U from 'karet.util';
 import cx from 'classnames';
 
-import css from './_profile.css';
+// $FlowFixMe
+import css from './_profile.scss';
 
 const profileImageUrlIn = U.view('profile_image_url_https');
 const usernameIn = U.view('screen_name');

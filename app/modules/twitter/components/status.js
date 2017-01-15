@@ -12,7 +12,8 @@ import * as L from 'partial.lenses';
 import K, * as U from 'karet.util';
 import cx from 'classnames';
 
-import css from './status.css';
+// $FlowFixMe
+import css from './status.scss';
 import { Tweet, Retweet, QuotedTweet } from './tweet/index';
 
 const retweetIn = U.view('retweeted_status');

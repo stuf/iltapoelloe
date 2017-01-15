@@ -8,7 +8,8 @@ import cx from 'classnames';
 import moment from 'moment';
 import stringReplace from 'react-string-replace';
 
-import css from './_body.css';
+// $FlowFixMe
+import css from './_body.scss';
 
 import Image from './_image';
 

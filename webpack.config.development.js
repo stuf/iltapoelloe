@@ -22,8 +22,9 @@ export default validate(merge(baseConfig, {
     vendor: [
       `webpack-hot-middleware/client?path=http://localhost:${port}/__webpack_hmr`,
       'babel-polyfill',
+      'jquery',
       'react', 'react-dom', 'redux', 'react-redux', 'react-router-redux', 'rxjs', 'ramda', 'partial.lenses',
-      'karet', 'karet.util'
+      'karet', 'karet.util', 'bootstrap'
     ],
     bundle: [
       `webpack-hot-middleware/client?path=http://localhost:${port}/__webpack_hmr`,
@@ -52,8 +53,22 @@ export default validate(merge(baseConfig, {
         test: /\.(woff|ttf|eot|svg)(\?v=[a-z0-9]\.[a-z0-9]\.[a-z0-9])?$/, loader: 'url-loader?limit=100000'
       },
       {
-        test: /\.s[a|c]ss$/,
-        loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
+        test: /^((?!\.module).)*\.s[a|c]ss$/,
+        loaders: [
+          'style-loader',
+          'css-loader?modules&sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'sass-loader?sourceMap&localIdentName=[name]__[local]___[hash:base64:5]'
+        ]
+        // loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
+      },
+      {
+        test: /\.module\.s[a|c]ss$/,
+        loaders: [
+          'style-loader',
+          'css-loader?sourceMap&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]',
+          'sass-loader?sourceMap&localIdentName=[name]__[local]___[hash:base64:5]'
+        ]
+        // loaders: ['style-loader', 'css-loader?sourceMap', 'sass-loader?sourceMap']
       },
       {
         test: /\.global\.css$/,

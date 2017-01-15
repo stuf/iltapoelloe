@@ -8,7 +8,8 @@ import React from 'karet';
 import * as U from 'karet.util';
 import cx from 'classnames';
 
-import css from './statuses.css';
+// $FlowFixMe
+import css from './statuses.scss';
 
 /** @todo Fix my unknown type */
 export default ({ statuses, count = 20, Status }: *) =>
