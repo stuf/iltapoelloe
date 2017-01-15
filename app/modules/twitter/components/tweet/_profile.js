@@ -10,8 +10,8 @@ import css from './_profile.scss';
 const profileImageUrlIn = U.view('profile_image_url_https');
 const usernameIn = U.view('screen_name');
 
-export default ({ user, rtUser }: *) =>
-  <div className={cx('col-xs-1', { [css.isRetweet]: rtUser })}>
+export default ({ user, rtUser, isExpanded = false }: *) =>
+  <div className={cx('col-xs-1', { [css['is-retweet']]: rtUser })}>
     <div className={cx(css['main-profile'])}>
       <img src={profileImageUrlIn(user)} alt={usernameIn(user)} className={cx(css['profile-image'])} />
     </div>

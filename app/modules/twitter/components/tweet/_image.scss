@@ -1,0 +1,19 @@
+.image-holder {
+  // border: solid 2px #f00;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.image {
+  display: inline-block;
+  width: 6rem;
+  height: 6rem;
+  background-size: cover;
+  border-radius: 3px;
+  border: solid 3px rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.38);
+
+  + .image {
+    border: solid 4px #00f !important;
+  }
+}

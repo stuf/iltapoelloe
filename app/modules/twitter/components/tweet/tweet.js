@@ -24,16 +24,11 @@ const statsIn = U.view(
 );
 
 /** @todo Fix my unknown type */
-export default ({ status }: *) =>
+export default ({ status, className, isExpanded = false }: *) =>
   <div className={cx('row')}>
     <Profile user={profileIn(status)} />
     <div className="col-xs-2">
       {U.view(['user', 'screen_name'], status)}
     </div>
-    <Body
-      text={textIn(status)}
-      stats={statsIn(status)}
-      entities={entitiesIn(status)}
-      timestamp={timestampIn(status)}
-    />
+    <Body status={status} />
   </div>;

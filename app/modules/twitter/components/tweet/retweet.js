@@ -27,20 +27,11 @@ const statsIn = U.view([
   })
 ]);
 
-export default ({
-  status,
-  user = profileIn(status),
-  rtUser = retweetingProfileIn(status)
-}: *) =>
-  <div className={cx('row')}>
-    <Profile {...{ user, rtUser }} />
+export default ({ status, className, isExpanded = false }: *) =>
+  <div className={cx('row', className)}>
+    <Profile user={profileIn(status)} rtUser={retweetingProfileIn(status)} />
     <div className="col-xs-2">
-      {U.view([statusBase, 'user', 'screen_name'], status)}
+      {U.view(['retweeted_status', 'user', 'screen_name'], status)}
     </div>
-    <Body
-      text={textIn(status)}
-      stats={statsIn(status)}
-      entities={entitiesIn(status)}
-      timestamp={timestampIn(status)}
-    />
+    <Body status={U.view('retweeted_status', status)} />
   </div>;

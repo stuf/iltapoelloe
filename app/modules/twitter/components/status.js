@@ -28,18 +28,21 @@ export default ({
   <article className={classNames}>
     {K(retweetIn(status), isQuoteIn(status), (retweetedStatus, isQuoteFlag) => {
       let StatusComponent;
+      let className;
 
       if (isQuoteFlag) {
         StatusComponent = QuotedTweet;
+        className = css.isQuote;
       }
       else if (retweetedStatus) {
         StatusComponent = Retweet;
+        className = css.isRetweet;
       }
       else {
         StatusComponent = Tweet;
       }
 
-      return <StatusComponent status={status} />;
+      return <StatusComponent status={status} className={cx(className)} />;
     })}
   </article>;
 
