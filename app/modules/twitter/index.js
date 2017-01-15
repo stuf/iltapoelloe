@@ -1,25 +1,35 @@
 // @flow
-import React from 'karet';
+import React, { fromClass, Component } from 'karet';
 import cx from 'classnames';
 import * as L from 'partial.lenses';
 import * as U from 'karet.util';
+import { compose } from 'ramda';
 
 import Statuses from './components/statuses';
 import Status from './components/status';
 
 import css from './styles.css';
 
-const statusesIn = U.view(['statuses', L.define([])]);
+export default class Twitter extends React.Component {
+  constructor(props: *) {
+    super(props);
+    this.props = props;
+  }
 
-export default ({
-  state,
-  statuses = statusesIn(state)
-}: *) =>
-  <section className={cx(css.view)}>
-    <header className={cx(css.titleBar)}>
-      <h1>Iltapöllö</h1>
-    </header>
-    <article className={cx(css.timeline)}>
-      <Statuses statuses={statuses} Status={Status} />
-    </article>
-  </section>;
+  props: *;
+
+  render() {
+    const { state } = this.props;
+    const statuses = U.view(['statuses', L.define([])], state);
+    return (
+      <section className={cx(css.view, 'twitter-view')}>
+        <header className={cx(css.titleBar, 'twitter-titlebar')}>
+          <h1>Iltapöllö</h1>
+        </header>
+        <article className={cx(css.timeline, 'twitter-timeline')}>
+          <Statuses statuses={statuses} Status={Status} count={150} />
+        </article>
+      </section>
+    );
+  }
+}

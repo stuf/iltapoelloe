@@ -336,6 +336,12 @@ atob@~1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/atob/-/atob-1.1.3.tgz#95f13629b12c3a51a5d215abdce2aa9f32f80773"
 
+atom.storage@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/atom.storage/-/atom.storage-0.4.3.tgz#f5edf16fef1a00f8d9c4d9aecb954d0b3fa8c491"
+  dependencies:
+    infestines ">=0.2.0 <0.4.0"
+
 autoprefixer@^6.3.1:
   version "6.6.0"
   resolved "https://registry.yarnpkg.com/autoprefixer/-/autoprefixer-6.6.0.tgz#d5b347ebbaf79e79d30b81c0ee3e482b288527bf"
@@ -2330,10 +2336,6 @@ d@^0.1.1, d@~0.1.1:
   dependencies:
     es5-ext "~0.10.2"
 
-daggy@0.0.x:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/daggy/-/daggy-0.0.1.tgz#ae9c932c9f7136e655a04afb21e8baadfd0d3707"
-
 damerau-levenshtein@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/damerau-levenshtein/-/damerau-levenshtein-1.0.3.tgz#ae4f4ce0b62acae10ff63a01bb08f652f5213af2"
@@ -3271,17 +3273,6 @@ fancy-log@^1.1.0:
     chalk "^1.1.1"
     time-stamp "^1.0.0"
 
-fantasy-combinators@0.0.x:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/fantasy-combinators/-/fantasy-combinators-0.0.1.tgz#d18388aed94be790ac4069031f5ea018345e33a1"
-
-fantasy-land@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fantasy-land/-/fantasy-land-1.0.0.tgz#44615b3606e67e1d7c556970c28ef177e14b1a70"
-  dependencies:
-    daggy "0.0.x"
-    fantasy-combinators "0.0.x"
-
 fast-levenshtein@~2.0.4:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/fast-levenshtein/-/fast-levenshtein-2.0.6.tgz#3d8a5c66883a16a30ca8643e851f19baa7797917"
@@ -3424,6 +3415,10 @@ flatten@^1.0.2:
 flow-bin@^0.37.4:
   version "0.37.4"
   resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.37.4.tgz#3d8da2ef746e80e730d166e09040f4198969b76b"
+
+flow-static-land@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/flow-static-land/-/flow-static-land-0.2.4.tgz#b49378ebd8575ccd4538faca5554204764043241"
 
 flow-typed@^2.0.0:
   version "2.0.0"
@@ -4083,13 +4078,13 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
+"infestines@>=0.2.0 <0.4.0", infestines@^0.3.1:
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/infestines/-/infestines-0.3.3.tgz#4e89f9d8083c76e3f17938b8bb71d69795cb249e"
+
 infestines@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/infestines/-/infestines-0.2.0.tgz#dd57fd8ef2cd8917baf725e6f93b7be7b3db7bed"
-
-infestines@^0.3.1:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/infestines/-/infestines-0.3.3.tgz#4e89f9d8083c76e3f17938b8bb71d69795cb249e"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -7074,12 +7069,6 @@ stackframe@^0.3.1:
 stat-mode@^0.2.2:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/stat-mode/-/stat-mode-0.2.2.tgz#e6c80b623123d7d80cf132ce538f346289072502"
-
-static-land@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/static-land/-/static-land-1.0.0.tgz#d673dfb828fb51a61d66ee566b15c7dfdce565be"
-  dependencies:
-    fantasy-land "1.0.0"
 
 "statuses@>= 1.3.1 < 2", statuses@~1.3.0:
   version "1.3.1"

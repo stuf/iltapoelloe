@@ -1,5 +1,23 @@
 .profile {
+  height: 1.5rem;
 }
+
+.profile-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+.main-profile {
+  border: solid 1px #f00;
+  height: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+
 
 .isRetweet {
 }

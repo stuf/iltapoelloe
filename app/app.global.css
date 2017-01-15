@@ -6,4 +6,5 @@
 
 #root {
   font-family: "HK Grotesk";
+  text-rendering: optimizeLegibility;
 }

@@ -15,7 +15,7 @@ import Profile from './_profile';
 const profileIn = U.view('user');
 const textIn = U.view('text');
 const timestampIn = U.view('timestamp_ms');
-const entitiesIn = U.view(['entities']);
+const entitiesIn = U.view('entities');
 const statsIn = U.view(
   L.pick({
     retweets: 'retweet_count',
@@ -23,6 +23,7 @@ const statsIn = U.view(
   })
 );
 
+/** @todo Fix my unknown type */
 export default ({ status }: *) =>
   <div className={cx('row')}>
     <Profile user={profileIn(status)} />

@@ -9,21 +9,9 @@ import css from './_profile.css';
 const profileImageUrlIn = U.view('profile_image_url_https');
 const usernameIn = U.view('screen_name');
 
-export default ({
-  user,
-  rtUser
-}: *) =>
+export default ({ user, rtUser }: *) =>
   <div className={cx('col-xs-1', { [css.isRetweet]: rtUser })}>
-    <img
-      className={cx('rounded')}
-      src={profileImageUrlIn(user)}
-      alt={usernameIn(user)}
-    />
-    {rtUser ?
-      <img
-        className={cx('rounded', css.retweetingProfileImage)}
-        src={profileImageUrlIn(rtUser)}
-        alt={usernameIn(rtUser)}
-      /> :
-      ''}
+    <div className={cx(css['main-profile'])}>
+      <img src={profileImageUrlIn(user)} alt={usernameIn(user)} className={cx(css['profile-image'])} />
+    </div>
   </div>;

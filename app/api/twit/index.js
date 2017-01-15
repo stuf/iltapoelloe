@@ -22,7 +22,7 @@ type Observer = ObserverObject | ObserverFn;
 /** Generic stream creators */
 export const dummy = true;
 
-export const getStreams = (path: string, events: Array<Tuple<string, Observer>>) => {
+export const getStreams = (path: string, events: Array<Tuple<string, *>>) => {
   const stream = createStream(path);
   const _createStreams = compose(
     fromPairs,

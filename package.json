@@ -162,9 +162,11 @@
     "webpack-validator": "^2.3.0"
   },
   "dependencies": {
+    "atom.storage": "^0.4.3",
     "bootstrap": "4.0.0-alpha.5",
     "classnames": "^2.2.5",
     "electron-debug": "^1.1.0",
+    "flow-static-land": "^0.2.4",
     "font-awesome": "^4.7.0",
     "immutable": "^3.8.1",
     "karet": "^0.2.3",
@@ -187,7 +189,6 @@
     "reselect": "^2.5.4",
     "rxjs": "^5.0.3",
     "source-map-support": "^0.4.8",
-    "static-land": "^1.0.0",
     "styled-components": "^1.2.1",
     "twit": "^2.2.5"
   },
