@@ -1,0 +1,12 @@
+.quickBar {
+  position: absolute;
+  top: (1rem / 2);
+  right: (1rem / 2);
+  // border: solid 1px #f00;
+
+  .buttons {
+    button {
+      width: 1.75rem;
+    }
+  }
+}
