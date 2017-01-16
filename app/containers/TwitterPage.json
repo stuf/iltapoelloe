@@ -574,5 +574,572 @@
     "filter_level": "low",
     "lang": "ja",
     "timestamp_ms": "1484217914852"
+  },
+  {
+    "created_at": "Sun Jan 15 17:07:08 +0000 2017",
+    "id": 820678718867652600,
+    "id_str": "820678718867652608",
+    "text": "No, you're not doing something right. This is absolutely horrible, shortsighted advice. Don't burn yourselves out,… https://t.co/wMsaxMZFNq",
+    "display_text_range": [
+      0,
+      140
+    ],
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "truncated": true,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 615403,
+      "id_str": "615403",
+      "name": "Bryan",
+      "screen_name": "avalonstar",
+      "location": "Los Angeles, CA",
+      "url": "http://twitch.tv/avalonstar",
+      "description": "@iceymoon's husband. Full-time @twitch Partner, speedrunner, #FFXIV, pro designer (formerly FB, GitHub, Twitch). Hello! Project fan. [INQ: bryan@avalonstar.tv]",
+      "protected": false,
+      "verified": true,
+      "followers_count": 7176,
+      "friends_count": 482,
+      "listed_count": 448,
+      "favourites_count": 29312,
+      "statuses_count": 42502,
+      "created_at": "Mon Jan 08 23:13:18 +0000 2007",
+      "utc_offset": -28800,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "FFFFFF",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme18/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme18/bg.gif",
+      "profile_background_tile": false,
+      "profile_link_color": "0EB6C2",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "F6F6F6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/797611128444465152/xLVp_b7e_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/797611128444465152/xLVp_b7e_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/615403/1475527188",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": {
+      "id": "3b77caf94bfc81fe",
+      "url": "https://api.twitter.com/1.1/geo/id/3b77caf94bfc81fe.json",
+      "place_type": "city",
+      "name": "Los Angeles",
+      "full_name": "Los Angeles, CA",
+      "country_code": "US",
+      "country": "United States",
+      "bounding_box": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -118.668404,
+              33.704538
+            ],
+            [
+              -118.668404,
+              34.337041
+            ],
+            [
+              -118.155409,
+              34.337041
+            ],
+            [
+              -118.155409,
+              33.704538
+            ]
+          ]
+        ]
+      },
+      "attributes": {}
+    },
+    "contributors": null,
+    "quoted_status_id": 819383304185004000,
+    "quoted_status_id_str": "819383304185004032",
+    "quoted_status": {
+      "created_at": "Thu Jan 12 03:19:37 +0000 2017",
+      "id": 819383304185004000,
+      "id_str": "819383304185004032",
+      "text": "if you have no free time youre doing something right",
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 36746176,
+        "id_str": "36746176",
+        "name": "THE CHAINSMOKERS",
+        "screen_name": "TheChainsmokers",
+        "location": null,
+        "url": "http://www.instagram.com/thechainsmokers",
+        "description": "Never Washed, Always Conditioned - COLLAGE EP ft Setting Fires 🔥 OUT NOW http://smarturl.it/TCSCollage",
+        "protected": false,
+        "verified": true,
+        "followers_count": 860137,
+        "friends_count": 2013,
+        "listed_count": 1380,
+        "favourites_count": 32416,
+        "statuses_count": 1731,
+        "created_at": "Thu Apr 30 19:21:00 +0000 2009",
+        "utc_offset": -18000,
+        "time_zone": "Quito",
+        "geo_enabled": true,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "131516",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000174703039/QmzPBpfz.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000174703039/QmzPBpfz.jpeg",
+        "profile_background_tile": true,
+        "profile_link_color": "ABB8C2",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDFFCC",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/793992893023289344/2o9Srdla_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/793992893023289344/2o9Srdla_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/36746176/1484289217",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "3b77caf94bfc81fe",
+        "url": "https://api.twitter.com/1.1/geo/id/3b77caf94bfc81fe.json",
+        "place_type": "city",
+        "name": "Los Angeles",
+        "full_name": "Los Angeles, CA",
+        "country_code": "US",
+        "country": "United States",
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -118.668404,
+                33.704538
+              ],
+              [
+                -118.668404,
+                34.337041
+              ],
+              [
+                -118.155409,
+                34.337041
+              ],
+              [
+                -118.155409,
+                33.704538
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3099,
+      "favorite_count": 7561,
+      "entities": {
+        "hashtags": [],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": []
+      },
+      "favorited": false,
+      "retweeted": false,
+      "filter_level": "low",
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "extended_tweet": {
+      "full_text": "No, you're not doing something right. This is absolutely horrible, shortsighted advice. Don't burn yourselves out, kids. https://t.co/vyyNRvfa1V",
+      "display_text_range": [
+        0,
+        120
+      ],
+      "entities": {
+        "hashtags": [],
+        "urls": [
+          {
+            "url": "https://t.co/vyyNRvfa1V",
+            "expanded_url": "https://twitter.com/thechainsmokers/status/819383304185004032",
+            "display_url": "twitter.com/thechainsmoker…",
+            "indices": [
+              121,
+              144
+            ]
+          }
+        ],
+        "user_mentions": [],
+        "symbols": []
+      }
+    },
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "urls": [
+        {
+          "url": "https://t.co/wMsaxMZFNq",
+          "expanded_url": "https://twitter.com/i/web/status/820678718867652608",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ],
+      "user_mentions": [],
+      "symbols": []
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "en",
+    "timestamp_ms": "1484500028708"
+  },
+  {
+    "created_at": "Sun Jan 15 17:37:58 +0000 2017",
+    "id": 820686478464389100,
+    "id_str": "820686478464389120",
+    "text": "RT @toyotamoe: パジャマ😴 https://t.co/OXIDexf79g",
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "truncated": false,
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 111218905,
+      "id_str": "111218905",
+      "name": "盧生",
+      "screen_name": "literallyshoujo",
+      "location": "イタリアのどこか",
+      "url": null,
+      "description": "ファッションとアイドルさんが大好きなイタリア人です。めいめろとほのちぃ崇拝者ヽ(=´▽`=)ﾉ。イタリア語や日本語や英語でお気軽に声をかけてください。",
+      "protected": false,
+      "verified": false,
+      "followers_count": 644,
+      "friends_count": 289,
+      "listed_count": 26,
+      "favourites_count": 64654,
+      "statuses_count": 76100,
+      "created_at": "Thu Feb 04 05:06:17 +0000 2010",
+      "utc_offset": 3600,
+      "time_zone": "Rome",
+      "geo_enabled": false,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_link_color": "F07DE8",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/728811887098499073/4wsGnUUr_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/728811887098499073/4wsGnUUr_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/111218905/1462597558",
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sun Jan 15 13:52:44 +0000 2017",
+      "id": 820629795071365100,
+      "id_str": "820629795071365122",
+      "text": "パジャマ😴 https://t.co/OXIDexf79g",
+      "display_text_range": [
+        0,
+        5
+      ],
+      "source": "<a href=\"http://www.echofon.com/\" rel=\"nofollow\">Echofon</a>",
+      "truncated": false,
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1408066855,
+        "id_str": "1408066855",
+        "name": "豊田萌絵",
+        "screen_name": "toyotamoe",
+        "location": null,
+        "url": "http://ameblo.jp/toyotamoe/",
+        "description": "スタイルキューブ新人声優豊田萌絵です。\n♡テレビ東京系アニメ「デュエル・マスターズVSRF」の新エンディングテーマ「FLAWLESS」をPyxisで担当しています！\nStylipS、Pyxisメンバー\nInstagram始めました！！ http://instagram.com/toyotamoe/",
+        "protected": false,
+        "verified": false,
+        "followers_count": 39653,
+        "friends_count": 294,
+        "listed_count": 1417,
+        "favourites_count": 200,
+        "statuses_count": 3770,
+        "created_at": "Mon May 06 15:45:46 +0000 2013",
+        "utc_offset": 32400,
+        "time_zone": "Tokyo",
+        "geo_enabled": false,
+        "lang": "ja",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "profile_background_color": "F5ABB5",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme11/bg.gif",
+        "profile_background_tile": true,
+        "profile_link_color": "DD2E44",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/772076019402452992/JN9V3ZOJ_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/772076019402452992/JN9V3ZOJ_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1408066855/1458309025",
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 567,
+      "favorite_count": 1399,
+      "entities": {
+        "hashtags": [],
+        "urls": [],
+        "user_mentions": [],
+        "symbols": [],
+        "media": [
+          {
+            "id": 820629791715921900,
+            "id_str": "820629791715921920",
+            "indices": [
+              6,
+              29
+            ],
+            "media_url": "http://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+            "url": "https://t.co/OXIDexf79g",
+            "display_url": "pic.twitter.com/OXIDexf79g",
+            "expanded_url": "https://twitter.com/toyotamoe/status/820629795071365122/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 768,
+                "h": 1024,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 768,
+                "h": 1024,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 820629791715921900,
+            "id_str": "820629791715921920",
+            "indices": [
+              6,
+              29
+            ],
+            "media_url": "http://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+            "url": "https://t.co/OXIDexf79g",
+            "display_url": "pic.twitter.com/OXIDexf79g",
+            "expanded_url": "https://twitter.com/toyotamoe/status/820629795071365122/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 768,
+                "h": 1024,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 510,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 768,
+                "h": 1024,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "filter_level": "low",
+      "lang": "ja"
+    },
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "entities": {
+      "hashtags": [],
+      "urls": [],
+      "user_mentions": [
+        {
+          "screen_name": "toyotamoe",
+          "name": "豊田萌絵",
+          "id": 1408066855,
+          "id_str": "1408066855",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "symbols": [],
+      "media": [
+        {
+          "id": 820629791715921900,
+          "id_str": "820629791715921920",
+          "indices": [
+            21,
+            44
+          ],
+          "media_url": "http://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+          "url": "https://t.co/OXIDexf79g",
+          "display_url": "pic.twitter.com/OXIDexf79g",
+          "expanded_url": "https://twitter.com/toyotamoe/status/820629795071365122/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 820629795071365100,
+          "source_status_id_str": "820629795071365122",
+          "source_user_id": 1408066855,
+          "source_user_id_str": "1408066855"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 820629791715921900,
+          "id_str": "820629791715921920",
+          "indices": [
+            21,
+            44
+          ],
+          "media_url": "http://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/C2N2cptUkAAiXjy.jpg",
+          "url": "https://t.co/OXIDexf79g",
+          "display_url": "pic.twitter.com/OXIDexf79g",
+          "expanded_url": "https://twitter.com/toyotamoe/status/820629795071365122/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 510,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 768,
+              "h": 1024,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 820629795071365100,
+          "source_status_id_str": "820629795071365122",
+          "source_user_id": 1408066855,
+          "source_user_id_str": "1408066855"
+        }
+      ]
+    },
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "filter_level": "low",
+    "lang": "ja",
+    "timestamp_ms": "1484501878740"
   }
 ]

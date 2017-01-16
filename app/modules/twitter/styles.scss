@@ -1,21 +1,25 @@
 .view {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.compose {
+  padding-bottom: 0.75rem;
 }
 
 .timeline {
-  position: absolute;
   overflow: hidden;
   overflow-y: scroll;
-  top: 40px;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
-.title-bar {
+.titleBar { /* height: titlebar height; */ }
+.compose { }
+
+.titleBar {
   display: flex;
-  position: absolute;
-  width: 100vw;
   height: 40px;
   background: #37474F;
   color: rgba(255, 255, 255, 0.87);

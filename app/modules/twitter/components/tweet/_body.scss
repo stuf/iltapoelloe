@@ -7,15 +7,26 @@
 }
 
 .quote-status-holder {
+  font-size: 0.75rem;
   margin-top: 0.5rem;
   border: solid 1px #efefef;
   padding: 0.5rem;
   background-color: #f3f3f3;
   border-radius: 3px;
+}
 
-  .username {
-    font-size: 0.8rem;
-    font-weight: bold;
-    color: $md-blue-grey-500;
-  }
+header.quote-info {
+  // border: solid 1px #f00;
+  color: $md-blue-grey-500;
+  font-weight: bold;
+}
+
+.quote-meta,
+.tweet-meta {
+  text-align: right;
+}
+
+.tweet-meta {
+  padding-left: 0.8rem;
+  float: right;
 }

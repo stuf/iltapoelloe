@@ -7,6 +7,7 @@
 import { handleActions } from 'redux-actions';
 import * as L from 'partial.lenses';
 import * as R from 'ramda';
+import type { TwitterState } from '../types/app';
 import {
   START_STREAM,
   STOP_STREAM,
@@ -14,12 +15,11 @@ import {
   EMIT_TWEET
 } from '../actions/twitter';
 
-const initialState = {
+const initialState: TwitterState = {
   observables: {},
   streams: {},
   flags: {},
-  tweets: [],
-  tweetMap: {}
+  tweets: []
 };
 
 const handler = handleActions({

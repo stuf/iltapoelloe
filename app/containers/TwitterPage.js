@@ -5,7 +5,7 @@
  * @flow
  * @todo Unify `Observer` types to match across usage.
  */
-import React, { fromClass, Component } from 'karet';
+import React from 'karet';
 import Atom from 'kefir.atom';
 import Stored from 'atom.storage';
 import * as L from 'partial.lenses';
@@ -52,6 +52,9 @@ const state: * = Atom({
   statuses: [].concat(mockData),
   flags: {
     isStreaming: false
+  },
+  compose: {
+    text: ''
   }
 });
 
@@ -72,6 +75,7 @@ const events: * = Stored({
  */
 const lenses: Lenses = {
   status: state.view('statuses'),
+  compose: state.view('compose'),
   event: events.view()
 };
 
@@ -114,7 +118,7 @@ export class TwitterPage extends React.Component {
   }
 
   render() {
-    return <Twitter {...{ state }} />;
+    return <Twitter state={state} />;
   }
 }
 
