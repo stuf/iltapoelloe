@@ -1,13 +1,20 @@
 @import '~material-colors/dist/colors';
 
-.status-body {}
+.statusBody {}
+
+.meta {
+  // font-weight: bold;
+  color: $md-blue-grey-500;
+  float: right;
+}
 
 .status-body-text {
   margin-bottom: 0;
 }
 
-.quote-status-holder {
-  font-size: 0.75rem;
+.quoteStatusBody {
+  margin-right: -(1rem / 2);
+  font-size: 0.9rem;
   margin-top: 0.5rem;
   border: solid 1px #efefef;
   padding: 0.5rem;
@@ -15,10 +22,14 @@
   border-radius: 3px;
 }
 
-header.quote-info {
-  // border: solid 1px #f00;
+// Quoted tweets
+.quoteInfo {
   color: $md-blue-grey-500;
   font-weight: bold;
+
+  .meta {
+    font-weight: bold;
+  }
 }
 
 .quote-meta,

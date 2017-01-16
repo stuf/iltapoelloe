@@ -9,12 +9,12 @@ import * as U from 'karet.util';
 import cx from 'classnames';
 
 // $FlowFixMe
-import css from './statuses.scss';
+import s from './statuses.scss';
 
 /** @todo Fix my unknown type */
-export default ({ statuses, count = 20, Status, className, classNames = cx(className) }: *) =>
-  <article className={classNames}>
-    <section className={cx(css.main)}>
+export default ({ statuses, count = 20, Status, className }: *) =>
+  <article className={cx(className, s.statuses)}>
+    <section className={cx(s.statusesBody)}>
       {U.seq(statuses,
             U.indices,
             U.reverse,

@@ -29,15 +29,19 @@ const textIn = U.view('text');
 const timestampIn = U.view('created_at');
 const mediaIn = U.view(['entities', 'media']);
 
+const Timestamp = ({ time, visible = true }: *) =>
+  !visible ? null
+  : <time className={cx(s.meta)} dateTime={time.format()}>{time.fromNow()}</time>;
+
 /**
  * Provide a component to display the tweet's content, including possible embedded
  * entities.
  */
-const StatusBody = ({ status, views = U.map(mapView(status)) }: *) =>
+const StatusBody = ({ status, timestamp = true, views = U.map(mapView(status)) }: *) =>
   K(views([textIn, timestampIn, mediaIn]),
     ([bodyText, time, media, t = getTimestamp(time)]) =>
       <div>
-        <time className={cx(s['tweet-meta'])} dateTime={t.format()}>{t.fromNow()}</time>
+        <Timestamp karet-lift visible={timestamp} time={t} />
         <p className={cx(s['status-body-text'])}>{bodyText}</p>
 
         {U.when(U.complement(U.isEmpty),
@@ -48,20 +52,18 @@ const StatusBody = ({ status, views = U.map(mapView(status)) }: *) =>
  * The main tweet's body component.
  */
 export default ({ status }: *) =>
-  <div className={cx('col-xs', s['status-body'])}>
+  <div className={cx('col-xs', s.statusBody)}>
     <StatusBody karet-lift status={status} />
 
     {/* Quoted tweet if present */}
     {K(U.view('quoted_status', status),
        U.view(['quoted_status', 'created_at'], status),
        (st, time) => U.not(U.isNil(st)) ?
-         <article className={cx(s['quote-status-holder'])}>
-           <header className={cx('row', s['quote-info'])}>
-             <div className={cx('col-xs', s.username)}>@{U.view(['user', 'screen_name'], st)}</div>
-             <time dateTime={getTimestamp(time).format()} className={cx('col-xs-4', s['quote-meta'])}>
-               {getTimestamp(time).fromNow()}
-             </time>
+         <article className={cx(s.quoteStatusBody)}>
+           <header className={cx(s.quoteInfo)}>
+             <Timestamp karet-lift time={getTimestamp(time)} />
+             <div className={cx(s.username)}>@{U.view(['user', 'screen_name'], st)}</div>
            </header>
-           <StatusBody karet-lift status={st} />
+           <StatusBody karet-lift status={st} timestamp={false} />
          </article> : null)}
   </div>;

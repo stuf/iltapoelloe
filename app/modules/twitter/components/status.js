@@ -19,13 +19,8 @@ import { Tweet, Retweet, QuotedTweet } from './tweet/index';
 const retweetIn = U.view('retweeted_status');
 const isQuoteIn = U.view('is_quote_status');
 
-export default ({
-  status,
-  isRetweet = retweetIn(status),
-  isQuote = isQuoteIn(status),
-  classNames = cx(s.status, { [s.status]: isRetweet, [s.status]: isQuote })
-}: *) =>
-  <article className={classNames}>
+export default ({ status, isRetweet = retweetIn(status), isQuote = isQuoteIn(status) }: *) =>
+  <article className={cx(s.status, { [s.status]: isRetweet, [s.status]: isQuote })}>
     {K(retweetIn(status), isQuoteIn(status), (retweetedStatus, isQuoteFlag) => {
       let StatusComponent;
       let className;
