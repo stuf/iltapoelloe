@@ -9,7 +9,7 @@ export const createStream = (path: string) => T.stream(path);
 
 export const createStream2 = (path: string, params: *) => T.stream(path, params);
 
-/**
- * @deprecated
- */
-export default T;
+export const methods = {
+  POST: (path: string, params: *) => T.post(path, params),
+  GET: (path: string, params: *) => T.get(path, params)
+};
