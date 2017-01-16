@@ -1,4 +1,4 @@
-import { app, BrowserWindow, Menu, shell } from 'electron';
+import { app, BrowserWindow, Menu, shell, ipcMain } from 'electron';
 
 let menu;
 let template;
@@ -38,8 +38,16 @@ const installExtensions = async () => {
   }
 };
 
+ipcMain.on('online-status-changed', (e, status) => {
+  console.log('online status changed; ', status);
+});
+
 app.on('ready', async () => {
   await installExtensions();
+
+  // Add online/offline status checking.
+  const onlineStatusWindow = new BrowserWindow({ width: 0, height: 0, show: false });
+  onlineStatusWindow.loadURL(`file://${__dirname}/online-status.html`);
 
   mainWindow = new BrowserWindow({
     show: false,
@@ -56,8 +64,35 @@ app.on('ready', async () => {
     mainWindow.focus();
   });
 
+  mainWindow.webContents.on('crashed', (e, killed) => {
+    console.error('mainWindow webContents crashed!');
+    console.error(`Killed: ${killed}`);
+    console.error('Event:', e);
+  });
+
+  mainWindow.webContents.on('plugin-crashed', (e, name, version) => {
+    console.error(`Plugin crashed!; ${name} version ${version}`);
+    console.error('Event:', e);
+  });
+
+  mainWindow.on('unresponsive', e => {
+    console.error('mainWindow is unresponsive!');
+    console.error('Event:', e);
+  });
+
   mainWindow.on('closed', () => {
     mainWindow = null;
+  });
+
+  process.on('uncaughtException', e => {
+    console.error(`Uncaught exception: ${e}`);
+  });
+
+  process.on('warning', e => {
+    console.warn('Received warning in main process.');
+    console.warn(e.name);
+    console.warn(e.message);
+    console.warn(e.stack);
   });
 
   if (process.env.NODE_ENV === 'development') {
